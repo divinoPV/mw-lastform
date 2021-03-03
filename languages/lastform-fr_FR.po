@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Lastform\n"
 "POT-Creation-Date: 2017-07-27 07:39+0100\n"
-"PO-Revision-Date: 2021-03-03 09:38+0000\n"
+"PO-Revision-Date: 2021-03-03 10:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "Language: fr_FR\n"
@@ -22,27 +22,23 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "X-Loco-Version: 2.5.0; wp-5.6.2"
 
-#: public/partials/lastform-public-display.php:128
+#: public/partials/lastform-public-display.php:130
 msgid "$1 completed"
 msgstr "$1 terminé"
 
-#: public/partials/lastform-public-display.php:129
+#: public/partials/lastform-public-display.php:131
 msgid "$1 of $2 answered"
 msgstr "$1 sur $2 ont répondu"
 
-#: includes/class-lastform.php:491 includes/class-lastform.php:547
+#: includes/class-lastform.php:491 includes/class-lastform.php:564
 msgid "0 to 100"
 msgstr "0 à 100"
 
-#. Description of the plugin/theme
-msgid "Affordable Typeform alternative"
-msgstr "Alternative abordable à la typographie"
-
-#: public/partials/lastform-public-display.php:123
+#: public/partials/lastform-public-display.php:125
 msgid "Allowed file extensions:"
 msgstr "Extensions de fichiers autorisées :"
 
-#: includes/class-lastform.php:563
+#: includes/class-lastform.php:580
 msgid "Analytics, Pixel Code etc..."
 msgstr "Analytics, Pixel Code etc..."
 
@@ -67,12 +63,12 @@ msgstr "Image de fond"
 msgid "Button color"
 msgstr "Couleur des boutons"
 
-#: public/partials/lastform-public-display.php:119
-#: public/partials/lastform-public-display.php:126
+#: public/partials/lastform-public-display.php:121
+#: public/partials/lastform-public-display.php:128
 msgid "Choose as many as you like"
 msgstr "Choisissez en autant que vous le souhaitez"
 
-#: public/partials/lastform-public-display.php:118
+#: public/partials/lastform-public-display.php:120
 #, php-format
 msgid "Choose as many as you like and %s press ENTER %s"
 msgstr "Choisissez autant que vous le souhaitez et %s appuyez sur ENTRER %s"
@@ -81,11 +77,11 @@ msgstr "Choisissez autant que vous le souhaitez et %s appuyez sur ENTRER %s"
 msgid "Colors"
 msgstr "Couleurs"
 
-#: includes/class-lastform.php:572
+#: includes/class-lastform.php:589
 msgid "CSS code"
 msgstr "Code CSS"
 
-#: includes/class-lastform.php:560
+#: includes/class-lastform.php:577
 msgid "Custom code"
 msgstr "Code personnalisé"
 
@@ -101,11 +97,7 @@ msgstr ""
 "En fonction de votre image, vous devrez la configurer pour améliorer la "
 "lisibilité."
 
-#: public/partials/lastform-public-display.php:135
-msgid "Drop files here or"
-msgstr "Déposez vos fichiers ici ou"
-
-#: includes/class-lastform.php:577 includes/class-lastform.php:585
+#: includes/class-lastform.php:594 includes/class-lastform.php:602
 msgid "E.g.: body { background-color: #c0ffee; }"
 msgstr "Par exemple : body { background-color: #c0ffee; }"
 
@@ -117,37 +109,37 @@ msgstr "Par exemple : Some+Font+Name:300,300i,600,600i"
 msgid "E.g.: Source Sans Pro"
 msgstr "Par exemple : Source Sans Pro"
 
+#: includes/class-lastform.php:521
+msgid "Enable Sound Effects?"
+msgstr "Activé les effets de son ?"
+
 #: includes/class-lastform.php:358
 msgid "Enable Welcome Screen?"
 msgstr "Activer l'écran d'accueil ?"
 
-#: includes/class-lastform.php:363
+#: includes/class-lastform.php:363 includes/class-lastform.php:526
 msgid "Enabled"
 msgstr "Activé"
 
-#: public/partials/lastform-public-display.php:152
+#: public/partials/lastform-public-display.php:154
 msgid "Enter a valid Website URL, like $1"
 msgstr "Entrez une URL de site web valide, par exemple $1"
 
-#: public/partials/lastform-public-display.php:153
+#: public/partials/lastform-public-display.php:155
 msgid "Enter a value between $1 and $2."
 msgstr "Entrez une valeur comprise entre $1 et $2."
 
-#: public/partials/lastform-public-display.php:154
+#: public/partials/lastform-public-display.php:156
 msgid "Enter a value greater than or equal to $1."
 msgstr "Saisissez une valeur supérieure ou égale à $1"
 
-#: public/partials/lastform-public-display.php:155
+#: public/partials/lastform-public-display.php:157
 msgid "Enter a value less than or equal to $1."
 msgstr "Indiquez une valeur inférieure ou égale à $1"
 
-#: includes/class-lastform.php:550
+#: includes/class-lastform.php:567
 msgid "Favicon"
 msgstr "Favicon"
-
-#: public/partials/lastform-public-display.php:159
-msgid "File exceeds size limit"
-msgstr "Le fichier dépasse la limite de taille"
 
 #: includes/class-lastform.php:508
 msgid "Font Family Name"
@@ -165,7 +157,7 @@ msgstr "Formulaire URL Slug"
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: includes/class-lastform.php:518
+#: includes/class-lastform.php:535
 msgid "General"
 msgstr "Général"
 
@@ -195,46 +187,34 @@ msgstr "Comment trouver le code ?"
 msgid "How to find the font family name?"
 msgstr "Comment trouver le nom de famille de la police ?"
 
-#. Author URI of the plugin/theme
-msgid "http://meydjer.com"
-msgstr "http://meydjer.com"
-
-#: includes/class-lastform.php:555
+#: includes/class-lastform.php:572
 msgid "http://some-site.com/favicon.png"
 msgstr "http://some-site.com/favicon.png"
 
-#. Plugin URI of the plugin/theme
-msgid ""
-"https://codecanyon.net/item/lastform-affordable-typeform-"
-"alternative/17870313?ref=meydjer"
-msgstr ""
-"https://codecanyon.net/item/lastform-affordable-typeform-"
-"alternative/17870313?ref=meydjer"
+#. Author URI of the plugin
+msgid "https://www.mentalworks.fr/"
+msgstr "https://www.mentalworks.fr/"
 
 #: includes/class-lastform.php:370 includes/class-lastform.php:439
 msgid "Image URL"
 msgstr "URL de l'image"
 
-#: public/partials/lastform-public-display.php:44
-msgid "Invalid value"
-msgstr "Valeur non valable"
-
-#: public/partials/lastform-public-display.php:151
+#: public/partials/lastform-public-display.php:153
 msgid "It already exists."
 msgstr "Il existe déjà."
 
-#: includes/class-lastform.php:580
+#: includes/class-lastform.php:597
 msgid "JavaScript code"
 msgstr "JavaScript code"
 
-#: public/partials/lastform-public-display.php:120
+#: public/partials/lastform-public-display.php:122
 msgctxt "keyboard key"
 msgid "Key"
 msgstr "Clé"
 
-#. Plugin Name of the plugin/theme
-msgid "Lastform"
-msgstr "Lastform"
+#. Description of the plugin
+msgid "L'addon Gravityform dépressé reprit par Mentalworks"
+msgstr "L'addon Gravityform dépressé reprit par Mentalworks"
 
 #: admin/class-lastform-admin.php:156
 msgid "Lastform already has its own calendar widget."
@@ -265,55 +245,48 @@ msgstr "Luminosité"
 msgid "Luminosity level %"
 msgstr "Degré de luminosité %."
 
-#: public/partials/lastform-public-display.php:158
-msgid "Maximum number of files reached"
-msgstr "Nombre maximum de dossiers atteints"
+#. Author of the plugin
+msgid "Mentalworks | Hugo Monteiro"
+msgstr "Mentalworks | Hugo Monteiro"
 
-#. Author of the plugin/theme
-msgid "Meydjer Windmüller"
-msgstr "Meydjer Windmüller"
+#. Name of the plugin
+#| msgid "Lastform"
+msgid "MW Lastform"
+msgstr "MW Lastform"
 
-#: public/partials/lastform-public-display.php:139
+#: public/partials/lastform-public-display.php:141
 msgid "Next"
 msgstr "Suivant"
-
-#: public/partials/lastform-public-display.php:142
-msgid "No"
-msgstr "Non"
 
 #: includes/class-lastform.php:463
 msgid "No repeat"
 msgstr "Pas de répétition"
 
-#: includes/class-lastform.php:535
+#: includes/class-lastform.php:552
 msgid "None"
 msgstr "Aucune"
 
-#: includes/class-lastform.php:606
+#: includes/class-lastform.php:623
 msgid "Open Lastform"
 msgstr "Ouvrir Lastform"
 
-#: public/partials/lastform-public-display.php:137
+#: public/partials/lastform-public-display.php:139
 msgid "or"
 msgstr "ou"
 
-#: public/partials/lastform-public-display.php:483
-msgid "Other"
-msgstr "Autres"
-
-#: includes/class-lastform.php:575
+#: includes/class-lastform.php:592
 msgid "Paste here your custom CSS code."
 msgstr "Collez ici votre code CSS personnalisé."
 
-#: includes/class-lastform.php:566
+#: includes/class-lastform.php:583
 msgid "Paste here your custom HTML code."
 msgstr "Collez ici votre code HTML personnalisé."
 
-#: includes/class-lastform.php:583
+#: includes/class-lastform.php:600
 msgid "Paste here your custom JavaScript code."
 msgstr "Collez ici votre code JavaScript personnalisé."
 
-#: includes/class-lastform.php:569
+#: includes/class-lastform.php:586
 msgid ""
 "Paste here your FB Pixel Code, Google Analytcs code or any other code "
 "snippet you want."
@@ -325,7 +298,7 @@ msgstr ""
 msgid "Paste the FULL image URL"
 msgstr "Coller l'URL de l'image complète"
 
-#: includes/class-lastform.php:527
+#: includes/class-lastform.php:544
 msgid "Percentage % (E.g.: 66% completed)"
 msgstr "Pourcentage % (ex. : 66% achevé)"
 
@@ -333,51 +306,34 @@ msgstr "Pourcentage % (ex. : 66% achevé)"
 msgid "Permalinks page"
 msgstr "Page des permaliens"
 
-#: public/class-lastform-public.php:176
-#: public/partials/lastform-public-display.php:156
-msgid "Please enter a valid email address."
-msgstr "Veuillez entrer une adresse électronique valide."
-
-#: public/partials/lastform-public-display.php:125
+#: public/partials/lastform-public-display.php:127
 #, php-format
 msgid "press %s ENTER %s"
 msgstr "presser %s ENTRER %s"
 
-#: public/partials/lastform-public-display.php:127
+#: public/partials/lastform-public-display.php:129
 #, php-format
 msgid "Press %s SHIFT + ENTER %s and choose as many as you like"
 msgstr ""
 "Appuyez sur %s SHIFT + ENTER %s et choisissez autant que vous le souhaitez"
 
-#: public/partials/lastform-public-display.php:138
+#: public/partials/lastform-public-display.php:140
 msgid "Previous"
 msgstr "Précédent"
 
-#: public/partials/lastform-public-display.php:143
-msgid "Price"
-msgstr "Prix"
-
-#: includes/class-lastform.php:521
+#: includes/class-lastform.php:538
 msgid "Progress box"
 msgstr "Boîte de progression"
 
-#: includes/class-lastform.php:531
+#: includes/class-lastform.php:548
 msgid "Proportional (4 of 6 answered)"
 msgstr "Proportionnel (4 de 6 a répondu)"
-
-#: public/partials/lastform-public-display.php:256
-msgid "Province"
-msgstr "Province"
-
-#: public/partials/lastform-public-display.php:144
-msgid "Quantity"
-msgstr "Quantité"
 
 #: includes/class-lastform.php:394
 msgid "Question color"
 msgstr "Couleur de la question"
 
-#: public/partials/lastform-public-display.php:124
+#: public/partials/lastform-public-display.php:126
 msgid "Rejected files:"
 msgstr "Fichiers rejetés :"
 
@@ -385,7 +341,7 @@ msgstr "Fichiers rejetés :"
 msgid "Repeat"
 msgstr "Répéter"
 
-#: public/partials/lastform-public-display.php:150
+#: public/partials/lastform-public-display.php:152
 msgid "Review Fields"
 msgstr "Champs à réviser"
 
@@ -393,20 +349,11 @@ msgstr "Champs à réviser"
 msgid "Scaling"
 msgstr "Échelle"
 
-#: public/partials/lastform-public-display.php:140
+#: public/partials/lastform-public-display.php:142
 msgid "Select"
 msgstr "Sélectionnez"
 
-#: public/partials/lastform-public-display.php:133
-msgid "Select file"
-msgstr "Sélectionnez un fichier"
-
 #: public/partials/lastform-public-display.php:134
-msgid "Select files"
-msgstr "Sélectionner les fichiers"
-
-#: public/class-lastform-public.php:175
-#: public/partials/lastform-public-display.php:132
 msgid "Send Email"
 msgstr "Envoyer un courriel"
 
@@ -418,22 +365,16 @@ msgstr ""
 "Comme Lastform dispose déjà d'options de couleur, cela n'affectera que les "
 "formulaires \"Gravity Forms\" purs."
 
-#: public/partials/lastform-public-display.php:148
-msgid "Some fields needs to be reviewed."
+#: public/partials/lastform-public-display.php:150
+#| msgid "Some fields needs to be reviewed."
+msgid "Some fields need to be reviewed."
 msgstr "Certains champs doivent être revus."
 
-#: public/partials/lastform-public-display.php:161
-msgid "Sorry, this file extension is not permitted for security reasons."
-msgstr ""
-"Désolé, cette extension de fichier n'est pas autorisée pour des raisons de "
-"sécurité."
+#: includes/class-lastform.php:518
+msgid "Sound"
+msgstr "Son"
 
-#: public/partials/lastform-public-display.php:162
-msgid "Sorry, this file type is not permitted for security reasons."
-msgstr ""
-"Désolé, ce type de fichier n'est pas autorisé pour des raisons de sécurité."
-
-#: public/partials/lastform-public-display.php:115
+#: public/partials/lastform-public-display.php:117
 msgid "Start"
 msgstr "Démarrer"
 
@@ -441,15 +382,11 @@ msgstr "Démarrer"
 msgid "Start button text"
 msgstr "Texte du bouton de démarrage"
 
-#: public/partials/lastform-public-display.php:246
-msgid "State"
-msgstr "État"
-
-#: public/partials/lastform-public-display.php:130
+#: public/partials/lastform-public-display.php:132
 msgid "Step $1 of $2"
 msgstr "Étape 1 de 2"
 
-#: public/partials/lastform-public-display.php:131
+#: public/partials/lastform-public-display.php:133
 msgid "Submit"
 msgstr "Soumettre"
 
@@ -461,7 +398,7 @@ msgstr "Texte"
 msgid "The amount of luminosity to apply over your image. From 0 to 100."
 msgstr "La quantité de luminosité à appliquer sur votre image. De 0 à 100."
 
-#: includes/class-lastform.php:545
+#: includes/class-lastform.php:562
 msgid ""
 "The amount of transparency to apply over unfocused fields. From 0 to 100."
 msgstr ""
@@ -473,37 +410,24 @@ msgstr ""
 "La ligne de démarcation entre l'URL de votre site et l'identifiant du "
 "formulaire. Par exemple : "
 
-#: public/partials/lastform-public-display.php:163
-msgid "There was a problem while saving the file on the server"
-msgstr ""
-"Il y a eu un problème lors de l'enregistrement du fichier sur le serveur"
-
-#: public/partials/lastform-public-display.php:160
-msgid "There was an problem while verifying your file."
-msgstr "Il y a eu un problème lors de la vérification de votre dossier."
-
 #: admin/class-lastform-admin.php:142
 msgid "This option will be integrated with Lastform soon."
 msgstr "Cette option sera bientôt intégrée à Lastform."
 
-#: public/partials/lastform-public-display.php:121
+#: public/partials/lastform-public-display.php:123
 #, php-format
 msgid "To add a paragraph, press %s SHIFT + ENTER %s"
 msgstr "Pour ajouter un paragraphe, appuyez sur %s SHIFT + ENTER %s"
 
-#: public/partials/lastform-public-display.php:136
-msgid "Today"
-msgstr "Aujourd'hui"
-
-#: includes/class-lastform.php:542
+#: includes/class-lastform.php:559
 msgid "Unfocused fields transparency level %"
 msgstr "Champs non ciblés Niveau de transparence %"
 
-#: public/partials/lastform-public-display.php:122
+#: public/partials/lastform-public-display.php:124
 msgid "Upload"
 msgstr "Télécharger"
 
-#: includes/class-lastform.php:608
+#: includes/class-lastform.php:625
 msgid "View this form in Lastform"
 msgstr "Voir ce formulaire dans Lastform"
 
@@ -511,8 +435,8 @@ msgstr "Voir ce formulaire dans Lastform"
 msgid "Warning color"
 msgstr "Couleur d'avertissement"
 
-#: includes/class-lastform.php:338 includes/class-lastform.php:575
-#: includes/class-lastform.php:583
+#: includes/class-lastform.php:338 includes/class-lastform.php:592
+#: includes/class-lastform.php:600
 msgid "WARNING:"
 msgstr "AVERTISSEMENT :"
 
@@ -520,15 +444,11 @@ msgstr "AVERTISSEMENT :"
 msgid "Welcome screen"
 msgstr "Écran d'accueil"
 
-#: includes/class-lastform.php:575 includes/class-lastform.php:583
+#: includes/class-lastform.php:592 includes/class-lastform.php:600
 msgid "Without "
 msgstr "Sans"
 
-#: public/partials/lastform-public-display.php:141
-msgid "Yes"
-msgstr "Oui"
-
-#: public/partials/lastform-public-display.php:149
+#: public/partials/lastform-public-display.php:151
 msgid "You forgot to fill out this field."
 msgstr "Vous avez oublié de remplir ce champ."
 
@@ -542,10 +462,6 @@ msgstr ""
 msgid "You need to install and activate Gravity Form first."
 msgstr "Vous devez d'abord installer et activer le Gravity Form."
 
-#: public/partials/lastform-public-display.php:157
-msgid "Your emails do not match."
-msgstr "Vos e-mails ne correspondent pas."
-
-#: includes/class-lastform.php:553
+#: includes/class-lastform.php:570
 msgid "Your favicon URL"
 msgstr "Votre favicon URL"

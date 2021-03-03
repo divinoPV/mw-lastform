@@ -15,7 +15,7 @@
  * @wordpress-plugin
  *  Plugin Name:            MW Lastform
  *  Description:            L'addon Gravityform dépressé reprit par Mentalworks
- *  Version:                1.0.1
+ *  Version:                1.0.2
  *  Requires at least:      5.2
  *  Requires PHP:           5.6
  *  Author:                 Mentalworks | Hugo Monteiro

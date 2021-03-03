@@ -163,7 +163,7 @@ class Lastform extends GFAddOn {
 	 * @return string
 	 */
 	public static function plugin_url() {
-		return trailingslashit( plugins_url() ) . 'lastform/';
+		return trailingslashit( plugins_url() ) . 'mw-lastform/';
 	}
 
 	/**
