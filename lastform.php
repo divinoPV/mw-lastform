@@ -9,7 +9,7 @@
  *  that starts the plugin.
  *
  * @link                   https://www.mentalworks.fr/
- * @since                  1.0.0
+ * @since                  1.0.1
  * @package                MW Lastform
  *
  * @wordpress-plugin
